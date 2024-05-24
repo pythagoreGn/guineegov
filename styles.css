@@ -1,0 +1,102 @@
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    color: #1877f2;
+    font-size: 48px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.login-container {
+    margin-bottom: 20px;
+}
+
+.login-box {
+    padding: 20px;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box input {
+    margin-bottom: 10px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-box button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #166fe5;
+}
+
+.forgot-password {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+.create-account {
+    background-color: #42b72a;
+}
+
+.create-account:hover {
+    background-color: #36a420;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.footer p {
+    color: #777;
+    font-size: 14px;
+}
